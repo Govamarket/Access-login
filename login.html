@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <span id="header"><h2>Welcome Back</h2></span>
+        <section>
+            <form action="Register.html">
+                <section>
+                    <label for="">Email</label><br>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <p id="notmatch"></p>
+                </section><br>
+                <section>
+                    <label for="">Password</label><br>
+                    <input type="password" id="password" placeholder="Enter Password">
+                    <span id="rematchpass"><p>Password does not match</p></span>
+                    <span><p></p></span>
+                </section>
+                <span id="classic">
+                    <button id="btn" type="button" onclick="checkData()">Login</button>
+                </span>
+            </form>
+        </section>
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>
